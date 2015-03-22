@@ -1,0 +1,3 @@
+app_votes:
+    resource: @AppBundle/Resources/config/routing/votes.yml
+    prefix: /votes

@@ -1,0 +1,6 @@
+services:
+    ab.voting_system.votes_manager:
+        class: AB\VotingSystemBundle\Manager\VotesManager
+        arguments:
+            - @doctrine.orm.default_entity_manager
+            - @validator

@@ -1,0 +1,17 @@
+AB\VotingSystemBundle\Entity\Vote:
+    type: entity
+    table: votes
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        positive:
+            type: boolean
+        remote_addr:
+            type: string
+            length: 255
+        http_x_forwarded_for:
+            type: string
+            length: 255
+            nullable: true

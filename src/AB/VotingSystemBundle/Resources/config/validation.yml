@@ -1,0 +1,5 @@
+AB\VotingSystemBundle\Entity\Vote:
+    constraints:
+        - Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity:
+            fields: [remote_addr, http_x_forwarded_for]
+            ignoreNull: false
