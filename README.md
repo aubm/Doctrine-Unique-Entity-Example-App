@@ -1,4 +1,4 @@
-doctrine_tests
-==============
+IDoctrine Unique Entity Example App
+===========================
 
-A Symfony project created on March 21, 2015, 1:29 pm.
+Support d'article de blog : <a href="http://www.aubm.net/blog/contrainte-dunicite-dans-symfony-2-avec-doctrine">http://www.aubm.net/blog/contrainte-dunicite-dans-symfony-2-avec-doctrine</a>
